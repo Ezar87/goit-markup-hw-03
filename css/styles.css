@@ -5,6 +5,30 @@
   --secondary-accent-text-color: #4d5ae5;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -153,7 +177,7 @@ body {
 }
 .team-section {
   background-color: #f4f4fd;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .team {
   margin-bottom: 72px;
@@ -216,7 +240,6 @@ body {
   letter-spacing: 0.04em;
   color: var(--secondary-accent-text-color);
   background-color: #f4f4fd;
-  cursor: pointer;
 }
 
 .buttons:hover,
