@@ -232,6 +232,9 @@ body {
 /* buttons */
 
 .buttons {
+  border-radius: 4px;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -243,6 +246,7 @@ body {
 
 .buttons:hover,
 .buttons:focus {
+  border: 1px solid transparent;
   background-color: #404bbf;
   color: #ffffff;
 }
@@ -251,6 +255,7 @@ body {
   text-decoration: none;
 }
 .img-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -262,4 +267,32 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--pramery-text-color);
+}
+
+.exples-box {
+  padding: 96px 0 120px;
+}
+
+.buttons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.block-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.block-exples {
+  width: calc((100% - 48px) / 3);
+}
+
+.blocks-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
