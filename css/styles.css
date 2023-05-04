@@ -16,9 +16,8 @@ p {
 
 ul,
 ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -65,10 +64,7 @@ body {
 /* maine navigation */
 
 .list {
-  display: flex;
-  gap: 40px;
   list-style: none;
-  display: flex;
   align-items: center;
 }
 
@@ -137,11 +133,17 @@ body {
 }
 /* section 2 */
 .work {
+  display: flex;
   gap: 24px;
+}
+.work-box-solutions {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .work-box {
-  padding: 120px 0;
+  padding-bottom: 120px;
+  padding-top: 0;
 }
 
 .work-list-item {
