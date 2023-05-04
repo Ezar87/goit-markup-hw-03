@@ -75,6 +75,7 @@ body {
   gap: 40px;
 }
 .nav-item {
+  display: block;
   padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
@@ -95,6 +96,8 @@ body {
 }
 
 .adress-item {
+  padding: 24px 0;
+  display: block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -112,6 +115,8 @@ body {
 }
 
 .hero-title {
+  margin: 0 auto;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -120,6 +125,7 @@ body {
   max-width: 496px;
 }
 .button-title {
+  margin: 0 auto;
   display: block;
   min-width: 169px;
   height: 56px;
