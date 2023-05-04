@@ -67,7 +67,13 @@ body {
   list-style: none;
   align-items: center;
 }
-
+.nav {
+  display: flex;
+}
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
 .nav-item {
   padding: 24px 0;
   font-weight: 500;
